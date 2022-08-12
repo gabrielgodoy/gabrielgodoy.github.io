@@ -56,3 +56,4 @@ jobs:
           # GitHub automatically creates a GITHUB_TOKEN secret to use in your workflow
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          publish_branch: main
